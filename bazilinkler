@@ -1,0 +1,13 @@
+KivMD'nin spec dosyası;
+https://github.com/HeaTTheatR/KivyMD/blob/master/demos/kitchen_sink/buildozer.spec
+
+3. taraf dosyalar için başka bir çözüm önerisi;
+https://stackoverflow.com/questions/57759679/how-do-you-create-a-kivy-apk-from-a-package
+
+bir diğer çözüm önerisi;
+https://stackoverflow.com/questions/57786351/how-can-i-import-an-package-into-a-kivy-app-using-buildozer
+
+Buildozer dökümantasyon;
+https://buildozer.readthedocs.io/en/latest/quickstart.html
+
+pycreenshot sorun oldu

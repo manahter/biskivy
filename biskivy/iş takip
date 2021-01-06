@@ -1,0 +1,33 @@
+* Diğer widget'ları da yapmaya devam et
+* SelectMenu'den seçim yapınca, window pinli değilse kapansın
+
+* Menülerin itemlerinde, herhangi bir tanesinde icon yoksa, yazıları kenara yasla.
+
+
+* "Pencere Yönetim sistemi" ve "Pencere içerik yönetim sistemi" iki farklı sistem gerekiyor.
+* BisLabel standart'ı düzenle. Küçülünce, yazıları küçülsün veya görünmez olsun vs. düzenle..
+* BisDivider'ın bir tarafındaki widget kapandığında, yerine bir tane genişletme butonu konsun
+* İconlar için, dizini sürekli kontrol eden, Didik tarzı bir sınıf oluşturulsun. Ve icon ismine-> iconlar.isim  şelinde ulaşılsın
+* İç pencereyi aşağı hızlı sürükleyip taşırınca, max recursiopn hatası oluşuyor. (döngüye girme sorunu)
+
+Tamamlandı:
+* BisColorWindow'da dikey renk seçici (siyah beyaz olan)'ın görselini 1024 piksele büyült
+* BisColorWindow'da skala güncellendi
+* Menü açıkken, buton selected kalıyor
+* ColorPicker kısmındaki rengin arkasına trabsparan görseli eklendi
+* BisWindow'da Bar ile Kasa arasına 1 piksel spacing koyuldu. Ayrıldılar
+* SelectMenu oluştur. Icon'lu olsun
+* Panel, itemleri animasyonlu yer değiştirecek şekilde düzenlendi.
+* AvarsRenk, AvarsScale vs kaldırıldı
+* ops, prefs, utils oluşturuldu
+* Preferences penceresi oluşturma girişiminde bulunuldu
+* ScrolledBoxLayout oluşturuldu. Yani içindekiler gerektiğinde otomatik scroll olabiliyor
+* bkv.paths.icons -> eklendi
+* Pencere Başlığındaki butonları azaltıldı
+* BisNumberInput ve SliderInput'un Metin girişi yaparken hemen prop_value değiştirme sorunu düzeltildi
+* Tüm widget'ların hepsinin ayarlarının bulunduğu ayar paneli oluşturuldu. Butona basılınca açılıyor
+* BisDivider düzenlendi; Alanın dışına çıkınca Fare simgesi düzelsin
+* BisDivider düzenlendi; Önceki ve sonraki widget için, minimum boyut ayarlandı. Minimum boyuta ulaştığında, kapanacak.
+
+İptal:
+* BisWindow'daki pozisyonu, pos_hint ile değiştir. Böylece, pencere boyutu değiştirildiğinde, konum daha stabil olur.
