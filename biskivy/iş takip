@@ -9,6 +9,7 @@
 * BisDivider'ın bir tarafındaki widget kapandığında, yerine bir tane genişletme butonu konsun
 * İconlar için, dizini sürekli kontrol eden, Didik tarzı bir sınıf oluşturulsun. Ve icon ismine-> iconlar.isim  şelinde ulaşılsın
 * İç pencereyi aşağı hızlı sürükleyip taşırınca, max recursiopn hatası oluşuyor. (döngüye girme sorunu)
+* Üstteki Widget'ın üzerinde dolanırken alttakiler yükselmesin. Bunu başka dosyalarda düzeltmiştik. Düzeltmeyi tekrar bul.
 
 Tamamlandı:
 * BisColorWindow'da dikey renk seçici (siyah beyaz olan)'ın görselini 1024 piksele büyült

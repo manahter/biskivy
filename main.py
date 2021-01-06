@@ -6,7 +6,7 @@ import biskivy
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 
-Window.size = (900, 600)
+#Window.size = (900, 600)
 #Window.clearcolor = (.22, .22, .22, 1)
 #indow.set_icon(bkv.paths.icons.ucnokta.png")
 #indow.icon = bkv.paths.icons.ucnokta.png"
